@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Poor+Story&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Oswald:wght@600&family=Poor+Story&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&family=Great+Vibes&family=Oswald:wght@600&family=Poor+Story&display=swap');
+
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    position: relative;
+   
+}
+
+header {
+    background-color: #CC5500;
+    color: #fff;
+    padding: 05px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 55px;
+    justify-content: center;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+   
+}
+
+main {
+    padding: 20px;
+}
+
+.hero {
+    background-image: url('img/intro-logo.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #CC5500;
+    padding: 100px 0;
+}
+
+.hero h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.product {
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.testimonials {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.testimonial {
+    flex: 1;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 15px;
+    margin-right: 20px;
+}
+
+.testimonial:last-child {
+    margin-right: 0;
+}
+
+.testimonial p {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.testimonial .author {
+    font-weight: bold;
+}
+
+.reservation {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.reservation h2 {
+    margin-bottom: 10px;
+}
+
+.reservation form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.reservation form input[type="text"],
+.reservation form input[type="email"],
+.reservation form input[type="date"],
+.reservation form input[type="time"],
+.reservation form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.reservation form input[type="submit"] {
+    background-color: #CC5500;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.reservation form input[type="submit"]:hover {
+    background-color:#F4C430;
+}
+a:hover{
+    color: #F4C430;
+}
+h2{
+    color: #F4C430;
+}
+
+.footer {
+    background-color: #CC5500; /* Couleur de fond du footer */
+    color: #fff; /* Couleur du texte */
+    padding: 20px 0; /* Espacement interne du footer */
+    font-size: 14px; /* Taille de la police */
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-left, .footer-right {
+    width: 48%;
+}
+
+.footer-left h3, .footer-right h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-left p, .footer-right p {
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 5px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-social {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-social li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer-social a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.footer-bottom {
+    /* background-color:#222; Couleur de fond du bas du footer */
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 12px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around; /* Espacement uniforme entre les éléments */
+    align-items: center; /* Centre les éléments verticalement */
+    padding: 50px; /* Espacement interne */
+    background-color: #f4f4f4; /* Couleur de fond */
+}
+
+.feature {
+    text-align: center; /* Centre le texte horizontalement */
+}
+
+.feature i {
+    font-size: 48px; /* Taille de l'icône */
+    margin-bottom: 20px; /* Marge en bas de l'icône */
+}
+
+.feature p {
+    font-size: 25px; /* Taille du texte */
+    font-family: 'Bodoni Moda', serif;
+}
+
+.feature i:hover{
+    color: #F4C430;
+}
+.feature i{
+    color: #CC5500;
+}
+

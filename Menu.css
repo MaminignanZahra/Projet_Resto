@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Poor+Story&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Oswald:wght@600&family=Poor+Story&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&family=Great+Vibes&family=Oswald:wght@600&family=Poor+Story&display=swap');
+
+        body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #CC5500;
+
+}
+*{
+  box-sizing: border-box;
+ }
+
+.menu-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.menu-item {
+  width: 250px;
+  padding: 10px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.menu-item img {
+  width: 100%;
+}
+
+.menu-item h3 {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+.menu-item p {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.menu-item span {
+  display: block;
+  margin-top: 5px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #333;
+}
+
