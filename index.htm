@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>resto</title>
+    <script src="hum.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+        <header>
+
+            <h1 style="font-family: 'Great Vibes', cursive;color: #F4C430; font-size: 35px;font-weight: bold;">Pépite</h1>
+            <nav style="display: flex; justify-content: center;">
+                <ul>
+                    <li><a href="#" style="text-decoration: underline #F4C430;">Acceuil</a></li>
+                    <li><a href="Menu.htm">Menu</a></li>
+                    <li><a href="apropos.htm">A propos</a></li>
+                    <li><a href="contact.htm">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+        <main>
+            <section class="hero">
+                <h1 style="font-family: 'Dancing Script', cursive; font-size: 67px;">Bienvenue au resto Pépite</h1>
+                <p style="font-family: 'Poor Story', system-ui;">Dégustez nos plats dans une ambiance chaleureuse.</p>
+                <!-- <a href="#" class="btn">View Menu</a> -->
+                <div class="carousel-container">
+            </section>
+    
+            <section class="featured-dishes">
+                <h2 style="text-align: center;font-family: 'Oswald', sans-serif;">NOS PLATS VEDETTES</h2>
+                <div class="gallery">
+                    <div class="product">
+                        <img src="img/e9af051c24e22663f28b35e10f47b2cf.jpg" alt="Product 1" style="height: 200px;width: 70%;">
+                        <h3>Brochette de boeuf</h3>
+                    </div>
+                    <div class="product">
+                        <img src="img/f5c37df49154e13ea5eb088095b8e24c.jpg" alt="Product 2" style="height: 200px;width: 70%;">
+                        <h3>Attiéké-Poisson-Alloco</h3>
+                    </div>
+                    <div class="product">
+                        <img src="img/c64216b69c84b1a9ecc95d63b16373a5.jpg" alt="Product 3"style="height: 200px;width: 70%;">
+                        <h3>Riz au poulet et aux crevettes</h3>
+                    </div>
+                    <div class="product">
+                        <img src="img/1cc43351b81b40b4c9fb1579235cccbc.jpg" alt="Product 3"style="height: 200px;width: 70%;">
+                        <h3>Akpessi de banane au poulet</h3>
+                    </div>
+
+                    <div class="product">
+                        <img src="img/8d912077a5f25eed1ea9de3d88b5d13d.jpg" alt="Product 3"style="height: 200px;width: 70%;">
+                        <h3>Frites au poulet</h3>
+                    </div>
+
+                    <div class="product">
+                        <img src="img/5398e7cd62d1fee115fa895e1633b5b5.jpg" alt="Product 3"style="height: 200px;width: 70%;">
+                        <h3>Poulet yassa</h3>
+                    </div>
+                </div>
+            
+            </section>
+            <section class="temoignages">
+                <h2 style="text-align: center;font-family: 'Oswald', sans-serif;">TEMOIGNAGES</h2>
+                <div class="testimonials">
+                    <div class="testimonial">
+                        <p>"Le meilleur restaurant que j'ai jamais visité ! La nourriture était incroyable et le service était impeccable. Je recommande vivement!"</p>
+                        <p class="author">- Jeanne D.</p>
+                    </div>
+                    <div class="testimonial">
+                        <p>"Une expérience culinaire inoubliable. Chaque plat était une explosion de saveurs. Je reviendrai à coup sûr!"</p>
+                        <p class="author">- Pierre L.</p>
+                    </div>
+                    <div class="testimonial">
+                        <p>"Je suis tombé amoureux de la cuisine de ce restaurant. Les saveurs étaient authentiques et les portions généreuses. Un vrai régal pour les papilles!"</p>
+                        <p class="author">- Sophie G.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="reservation">
+                <h2 style="text-align: center;font-family: 'Oswald', sans-serif;">RESERVEZ VOTRE TABLE</h2>
+                <form action="#" method="POST">
+                    <label for="name">Nom :</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="date">Date de réservation :</label>
+                    <input type="date" id="date" name="date" required min="2024-02-06">
+                    
+                    <label for="time">Heure de réservation :</label>
+                    <input type="time" id="time" name="time" required>
+                    
+                    <input type="submit" value="Réserver">
+                </form>
+            </section>
+
+
+            <h2 style="text-align: center;font-family: 'Oswald', sans-serif;padding: 10px;">CE QUE NOUS OFFRONS</h2>
+            <section class="features">
+                <div class="feature">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Localisation</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-clock"></i>
+                    <p>Service rapide</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-wifi"></i>
+                    <p>Wi-Fi gratuit</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-award"></i>
+                    <p>Meilleur service</p>
+                </div>
+            </section>
+        
+        </main>
+    
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <h3 style="font-weight: bold;">Pépite</h3>
+                    <p>786PXW78</p>
+                    <p>Heures d'Ouverture :</p>
+                    <p>Lundi - Vendredi : 10h00 - 22h00</p>
+                    <p>Samedi - Dimanche : 11h00 - 23h00</p>
+                </div>
+                <div class="footer-right">
+                    <h3 style="font-weight: bold;">Contact</h3>
+                    <p>Adresse : 123 Rue du boulevard, Abidjan, CI</p>
+                    <p>Email : info@Pépite.com</p>
+                    <p>Téléphone : +225 078 890 980</p>
+                    <ul class="footer-social">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Pépite. Tous droits réservés.</p>
+            </div>
+        </footer>
+        
+    
+    
+    
+</body>
+</html>
